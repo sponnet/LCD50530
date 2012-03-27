@@ -1,6 +1,6 @@
-#include <LCD50350.h>
+#include <LCD50530.h>
 
-LCD50350 lcd;
+LCD50530 lcd;
 
 void setup(){
   

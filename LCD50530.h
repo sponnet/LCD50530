@@ -3,15 +3,15 @@ LCD driver for Mitsubishi 50530 compatible displays
 
 */
 
-#ifndef LCD50350_h
-#define LCD50350_h
+#ifndef LCD50530_h
+#define LCD50530_h
 
 #include "Print.h"
 
-class LCD50350 : public Print {
+class LCD50530 : public Print {
 
 public:
-  LCD50350();
+  LCD50530();
   void init();
   void clear();
   void home();	
