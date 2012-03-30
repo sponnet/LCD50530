@@ -13,15 +13,14 @@ Sample configuration for wiring:
 
 Also check the included image optres_dmc50652n_backside.jpg for the pin layout of the display. lcd display pins are numbered 1-12 from left to right.
 
-digital 0 -> DB7 (databit 7) ( lcd display pin 1 )
-digital 1 ->  DB6 (databit 6) ( lcd display pin 2 )
-digital 2 ->  DB5 (databit 5) ( lcd display pin 3 )
-digital 3 ->  DB4 (databit 4) ( lcd display pin 4 )
-digital 4 ->  EX (Execute)    ( lcd display pin 5 )
-digital 5 ->  R/W (Read/Write) ( lcd display pin 6 )
-digital 6 ->  I/OC1 (IO Control 1) ( lcd display pin 7 )
-digital 7 ->  I/OC2 (IO Control 2) ( lcd display pin 8 )
-(hook up a pulldown resistor ( 10K ) to each of the the digital pins used)
+digital 7 ->  DB7 (databit 7) ( lcd display pin 1 )
+digital 6 ->  DB6 (databit 6) ( lcd display pin 2 )
+digital 5 ->  DB5 (databit 5) ( lcd display pin 3 )
+digital 4 ->  DB4 (databit 4) ( lcd display pin 4 )
+digital 3 ->  EX (Execute)    ( lcd display pin 5 )
+digital 2 ->  R/W (Read/Write) ( lcd display pin 6 )
+digital 1 ->  I/OC1 (IO Control 1) ( lcd display pin 7 )
+digital 0 ->  I/OC2 (IO Control 2) ( lcd display pin 8 )
 
 5V -> VSS (GND) ( lcd display pin 9 )
 Gnd -> Vdd (logic power)  ( lcd display pin 10 )
