@@ -6,7 +6,7 @@
 # Datatypes (KEYWORD1)
 #######################################
 
-LCD50350	KEYWORD1
+LCD50530	KEYWORD1
 
 #######################################
 # Methods and Functions (KEYWORD2)
@@ -29,6 +29,19 @@ rightToLeft	KEYWORD2
 scrollDisplayLeft	KEYWORD2
 scrollDisplayRight	KEYWORD2
 createChar	KEYWORD2
+moveCursorAfterInstruction KEYWORD2
+moveDisplayAfterInstruction KEYWORD2
+holdCursor KEYWORD2
+holdDisplay KEYWORD2
+shiftCursor KEYWORD2
+shiftDisplay KEYWORD2
+leftToRight KEYWORD2
+rightToLeft KEYWORD2
+autoscroll KEYWORD2
+noAutoscroll KEYWORD2
+setCursor KEYWORD2
+command KEYWORD2
+writechar KEYWORD2
 
 #######################################
 # Constants (LITERAL1)
